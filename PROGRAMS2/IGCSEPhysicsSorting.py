@@ -761,7 +761,7 @@ def savedata11():
     page9 = p9.get()
     page10 = p10.get()
     page11 = p11.get()
-    path = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -821,7 +821,7 @@ def savedata15():
     page13 = p13.get()
     page14 = p14.get()
     page15 = p15.get()
-    path = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -885,7 +885,7 @@ def savedata14():
     page12 = p12.get()
     page13 = p13.get()
     page14 = p14.get()
-    path = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -946,7 +946,7 @@ def savedata13():
     page11 = p11.get()
     page12 = p12.get()
     page13 = p13.get()
-    path = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -1003,7 +1003,7 @@ def savedata12():
     page10 = p10.get()
     page11 = p11.get()
     page12 = p12.get()
-    path = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -1053,7 +1053,7 @@ def savedata10():
     page8 = p8.get()
     page9 = p9.get()
     page10 = p10.get()
-    path = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -1099,7 +1099,7 @@ def savedata9():
     page7 = p7.get()
     page8 = p8.get()
     page9 = p9.get()
-    path = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -1156,14 +1156,14 @@ def choiceprocess1():
 def choiceprocess2():
     if choice2 == 3:
         global path_file1
-        path_file1 = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/1"
+        path_file1 = "" + str(choice2)
         presortfunction1()
     elif choice2 == 4:
         global path_file2
-        path_file2 = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/2"
+        path_file2 = "" + str(choice2)
         presortfunction1()
 def presortfunction1():
-    path_file2 = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/" + str(choice2)
+    path_file2 = "" + str(choice2)
     global arr
     global z1
     global reqcon
@@ -1347,7 +1347,7 @@ def pdfextraction():
         finalarr.append(file_output)
     pdfmerger2()
 def pdfmerger2():
-    path_final = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/IGCSE"
+    path_final = "" + "/IGCSE"
     output_file = 'TOPIC' + str(choice1) + " QUESTIONS LOADED.pdf"
     output_final = os.path.join(path_final, output_file)
     print(finalarr)
